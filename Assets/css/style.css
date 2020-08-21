@@ -41,15 +41,18 @@ h1{
   border-radius: 1rem;
   box-shadow: 0 10px 25px rgba(92,99,105,.2);
 }
+
 .form__title{
   font-weight: 400;
   margin-bottom: 3rem;
 }
+
 .form__div{
   position: relative;
   height: 48px;
   margin-bottom: 1.5rem;
 }
+
 .form__input{
   position: absolute;
   top: 0;
@@ -64,6 +67,7 @@ h1{
   background: none;
   z-index: 1;
 }
+
 .form__label{
   position: absolute;
   left: 1rem;
@@ -93,13 +97,14 @@ h1{
 
 /*Input focus move up label*/
 .form__input:focus + .form__label{
-  top: -.5rem;
-  left: .8rem;
-  color: var(--first-color);
-  font-size: var(--small-font-size);
-  font-weight: 500;
-  z-index: 10;
+    top: -.5rem;
+    left: .8rem;
+    color: var(--first-color);
+    font-size: var(--small-font-size);
+    font-weight: 500;
+    z-index: 10;
 }
+
 
 /*Input focus sticky top label*/
 .form__input:not(:placeholder-shown).form__input:not(:focus)+ .form__label{
